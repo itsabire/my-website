@@ -1,0 +1,186 @@
+/* إعدادات عامة */
+body {
+    font-family: "Cairo", sans-serif;
+    margin: 0;
+    background: #f7f8fc;
+    color: #111;
+}
+
+/* ▬▬▬ Top Bar ▬▬▬ */
+.top-bar .center{
+    background: #0c1330;
+    color: white;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between ;
+    font-size: 14px;
+}
+/* NAVBAR GLOBAL STYLE */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.logo img {
+    height: 45px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000839;
+    transition: 0.3s;
+    padding: 6px 18px;
+    border-radius: 6px;
+}
+
+.menu a.active {
+    background: #ffeeec;
+    color: #d74424;
+}
+
+.menu a:hover {
+    color: #d74424;
+}
+
+.start-btn {
+    background: #0f3c2f;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.start-btn:hover {
+    opacity: 0.8;
+}
+
+.lang {
+    font-size: 18px;
+    margin-left: 25px;
+    cursor: pointer;
+    color: #000839;
+}
+
+/* ▬▬▬ HERO SECTION ▬▬▬ */
+.hero {
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 580px;
+    border-radius: 12px;
+}
+
+
+/* النص */
+.hero-text {
+    width: 45%;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+}
+
+.orange {
+    color: #ff5e00;
+}
+
+.hero-text p {
+    color: #555;
+    line-height: 1.7;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.start, .more {
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
+
+.start {
+    background: #ff5e00;
+    color: white;
+    margin-left: 10px;
+}
+
+.more {
+    background: white;
+    border: 2px solid #ddd;
+}
+
+/* ▬▬▬ FEATURE CARDS ▬▬▬ */
+.features-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 50px;
+    flex-wrap: nowrap;
+    
+}
+
+.feature-box {
+    width: 230px;
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.12);
+}
+
+.icon-box {
+    width: 80px;
+    height: 80px;
+    background: #FEE7E2;
+    border-radius: 16px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-box img {
+    width: 45px;
+}
+
+.feature-box h3 {
+    font-size: 22px;
+    color: #0A1647;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.feature-box p {
+    color: #6A6A6A;
+    font-size: 16px;
+    line-height: 1.6;
+}
